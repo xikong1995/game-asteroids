@@ -1,0 +1,9 @@
+{
+    "name": "asteroids",
+    "version": "1.0.0",
+    "description": "A canvas-based game",
+    "scripts": {
+        "serve": "webpack serve --config webpack.dev.js --open",
+        "build": "webpack --config webpack.prod.js"
+    }
+}
